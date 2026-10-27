@@ -969,14 +969,15 @@
    "show": "A Conversation with…",
    "category": "Episode",
    "platforms": [
-    "Facebook"
+    "Facebook",
+    "YouTube"
    ],
-   "status": "Aired on Facebook (no public video)",
+   "status": "Watch on YouTube",
    "tags": [
     "recording saved"
    ],
-   "youtube_id": "",
-   "youtube_url": "",
+   "youtube_id": "QqYgZZ6B91k",
+   "youtube_url": "https://www.youtube.com/watch?v=QqYgZZ6B91k",
    "duration": "1:04:58",
    "note": "",
    "id": 51
@@ -1028,14 +1029,15 @@
    "show": "A Conversation with…",
    "category": "Episode",
    "platforms": [
-    "Facebook"
+    "Facebook",
+    "YouTube"
    ],
-   "status": "Aired on Facebook (no public video)",
+   "status": "Watch on YouTube",
    "tags": [
     "recording saved"
    ],
-   "youtube_id": "",
-   "youtube_url": "",
+   "youtube_id": "UC6KC6Fx4N4",
+   "youtube_url": "https://www.youtube.com/watch?v=UC6KC6Fx4N4",
    "duration": "1:17:31",
    "note": "",
    "id": 54
@@ -1047,14 +1049,15 @@
    "show": "A Conversation with…",
    "category": "Episode",
    "platforms": [
-    "Facebook"
+    "Facebook",
+    "YouTube"
    ],
-   "status": "Aired on Facebook (no public video)",
+   "status": "Watch on YouTube",
    "tags": [
     "recording saved"
    ],
-   "youtube_id": "",
-   "youtube_url": "",
+   "youtube_id": "KAZ_8wAhdZM",
+   "youtube_url": "https://www.youtube.com/watch?v=KAZ_8wAhdZM",
    "duration": "1:16:21",
    "note": "",
    "id": 55
@@ -1066,14 +1069,15 @@
    "show": "A Conversation with…",
    "category": "Episode",
    "platforms": [
-    "Facebook"
+    "Facebook",
+    "YouTube"
    ],
-   "status": "Aired on Facebook (no public video)",
+   "status": "Watch on YouTube",
    "tags": [
     "recording saved"
    ],
-   "youtube_id": "",
-   "youtube_url": "",
+   "youtube_id": "XzHOMgKN1oA",
+   "youtube_url": "https://www.youtube.com/watch?v=XzHOMgKN1oA",
    "duration": "48:07",
    "note": "",
    "id": 56
