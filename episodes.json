@@ -196,15 +196,16 @@
    "show": "The Long Island Show",
    "category": "Episode",
    "platforms": [
-    "Facebook"
+    "Facebook",
+    "YouTube"
    ],
-   "status": "Aired on Facebook (no public video)",
+   "status": "Watch on YouTube",
    "tags": [
     "recording saved"
    ],
-   "youtube_id": "",
-   "youtube_url": "",
-   "duration": "22:30",
+   "youtube_id": "EFT_u2WjtpI",
+   "youtube_url": "https://www.youtube.com/watch?v=EFT_u2WjtpI",
+   "duration": "22:29",
    "note": "Show attribution inferred from date.",
    "id": 11
   },
@@ -215,14 +216,15 @@
    "show": "The Long Island Show",
    "category": "Episode",
    "platforms": [
-    "Facebook"
+    "Facebook",
+    "YouTube"
    ],
-   "status": "Aired on Facebook (no public video)",
+   "status": "Watch on YouTube",
    "tags": [
     "recording saved"
    ],
-   "youtube_id": "",
-   "youtube_url": "",
+   "youtube_id": "qAs6mwJl82c",
+   "youtube_url": "https://www.youtube.com/watch?v=qAs6mwJl82c",
    "duration": "48:41",
    "note": "Show attribution inferred from date.",
    "id": 12
@@ -234,14 +236,15 @@
    "show": "The Long Island Show",
    "category": "Episode",
    "platforms": [
-    "Facebook"
+    "Facebook",
+    "YouTube"
    ],
-   "status": "Aired on Facebook (no public video)",
+   "status": "Watch on YouTube",
    "tags": [
     "recording saved"
    ],
-   "youtube_id": "",
-   "youtube_url": "",
+   "youtube_id": "24rjUYGpvgA",
+   "youtube_url": "https://www.youtube.com/watch?v=24rjUYGpvgA",
    "duration": "47:19",
    "note": "Show attribution inferred from date.",
    "id": 13
@@ -253,15 +256,16 @@
    "show": "A Conversation with…",
    "category": "Other",
    "platforms": [
-    "Facebook"
+    "Facebook",
+    "YouTube"
    ],
-   "status": "Aired on Facebook (no public video)",
+   "status": "Watch on YouTube",
    "tags": [
     "recording saved"
    ],
-   "youtube_id": "",
-   "youtube_url": "",
-   "duration": "4:58",
+   "youtube_id": "YWrEoplcZeU",
+   "youtube_url": "https://www.youtube.com/watch?v=YWrEoplcZeU",
+   "duration": "4:57",
    "note": "",
    "id": 14
   },
@@ -272,15 +276,16 @@
    "show": "A Conversation with…",
    "category": "Other",
    "platforms": [
-    "Facebook"
+    "Facebook",
+    "YouTube"
    ],
-   "status": "Aired on Facebook (no public video)",
+   "status": "Watch on YouTube",
    "tags": [
     "recording saved"
    ],
-   "youtube_id": "",
-   "youtube_url": "",
-   "duration": "23:39",
+   "youtube_id": "UHHrIes8e-8",
+   "youtube_url": "https://www.youtube.com/watch?v=UHHrIes8e-8",
+   "duration": "23:38",
    "note": "",
    "id": 15
   },
@@ -329,15 +334,16 @@
    "show": "A Conversation with…",
    "category": "Episode",
    "platforms": [
-    "Facebook"
+    "Facebook",
+    "YouTube"
    ],
-   "status": "Aired on Facebook (no public video)",
+   "status": "Watch on YouTube",
    "tags": [
     "recording saved"
    ],
-   "youtube_id": "",
-   "youtube_url": "",
-   "duration": "1:14:44",
+   "youtube_id": "ZPWW9I4_SR4",
+   "youtube_url": "https://www.youtube.com/watch?v=ZPWW9I4_SR4",
+   "duration": "1:08:10",
    "note": "",
    "id": 18
   },
