@@ -52,6 +52,12 @@ a.thumb:hover img{transform:scale(1.04)}
 .note{font-size:.78rem;color:var(--muted)}
 .empty{color:var(--muted);padding:40px;text-align:center}
 footer{border-top:1px solid var(--line);color:var(--muted);font-size:.85rem;padding:28px 0 48px}
+.mentions{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:16px}
+.mention{background:var(--card);border:1px solid var(--line);border-left:4px solid var(--accent2);border-radius:14px;padding:18px 20px;display:flex;flex-direction:column;gap:8px}
+.mention .src{font-size:.75rem;letter-spacing:.08em;text-transform:uppercase;color:var(--accent2);font-weight:700}
+.mention h3{margin:0;font-size:1.1rem}
+.mention p{margin:0;color:var(--muted);font-size:.9rem}
+.mention a{color:var(--accent);font-weight:600;text-decoration:none;margin-top:auto}
 </style>
 </head>
 <body>
@@ -78,6 +84,18 @@ footer{border-top:1px solid var(--line);color:var(--muted);font-size:.85rem;padd
       <span class="count" id="count"></span>
     </div>
     <div class="grid" id="grid"></div>
+  </section>
+  <section id="media-mentions">
+    <h2>Media Mentions</h2>
+    <div class="mentions">
+      <article class="mention">
+        <div class="src">Newsday · The Point</div>
+        <h3>CD3 scenarios, as Kaiman sees them</h3>
+        <div class="meta"><span>January 30, 2023</span></div>
+        <p>Newsday Opinion&rsquo;s political newsletter covered Jon Kaiman&rsquo;s appearance on Rae Arora&rsquo;s &ldquo;Conversations&rdquo; podcast, where he discussed a possible run for Congress in NY-3 or for North Hempstead supervisor.</p>
+        <a href="https://www.newsday.com/opinion/the-point/the-point-newsday-jon-kaiman-las-vegas-sands-hofstra-susan-poser-nassau-community-college-o7kc32fw" target="_blank" rel="noopener">Read on Newsday →</a>
+      </article>
+    </div>
   </section>
 </main>
 <footer><div class="wrap">
