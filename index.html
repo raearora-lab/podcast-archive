@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Rae Arora — Podcast &amp; Livestream Archive</title>
+<meta name="description" content="Archive of Rae Arora's Long Island politics and business conversations, 2021–2026.">
+<style>
+:root{--bg:#0f1720;--panel:#16212d;--card:#1b2836;--ink:#eef2f6;--muted:#9fb0c2;--accent:#f2a93b;--accent2:#4fb3bf;--line:#263646}
+*{box-sizing:border-box}
+body{margin:0;font-family:system-ui,-apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;background:var(--bg);color:var(--ink);line-height:1.5}
+a{color:var(--accent2)}
+.wrap{max-width:1180px;margin:0 auto;padding:0 20px}
+header.hero{background:radial-gradient(1200px 400px at 10% -10%,#26445e 0%,transparent 60%),linear-gradient(180deg,#132030,#0f1720);border-bottom:1px solid var(--line);padding:64px 0 40px}
+.eyebrow{color:var(--accent);letter-spacing:.14em;text-transform:uppercase;font-size:.8rem;font-weight:700}
+h1{font-size:clamp(2.2rem,5vw,3.6rem);margin:.2em 0 .1em;letter-spacing:-.02em}
+.lede{color:var(--muted);max-width:720px;font-size:1.1rem}
+.stats{display:flex;gap:28px;flex-wrap:wrap;margin-top:24px}
+.stat b{display:block;font-size:1.8rem;color:var(--ink)}
+.stat span{color:var(--muted);font-size:.85rem}
+.btn{display:inline-block;margin-top:24px;background:var(--accent);color:#1a1207;padding:10px 18px;border-radius:999px;font-weight:700;text-decoration:none}
+section{padding:36px 0}
+h2{font-size:1.4rem;margin:0 0 16px}
+.eras{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:14px}
+.era{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:16px;cursor:pointer;transition:border-color .2s}
+.era:hover,.era.active{border-color:var(--accent)}
+.era h3{margin:0 0 4px;font-size:1.05rem}
+.era .yrs{color:var(--accent);font-size:.8rem;font-weight:700}
+.era p{color:var(--muted);font-size:.9rem;margin:.4em 0 0}
+.controls{display:flex;gap:10px;flex-wrap:wrap;align-items:center;background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:12px;position:sticky;top:8px;z-index:5}
+.controls input,.controls select{background:var(--card);color:var(--ink);border:1px solid var(--line);border-radius:10px;padding:9px 12px;font-size:.95rem}
+.controls input{flex:1;min-width:200px}
+.count{color:var(--muted);font-size:.9rem;margin-left:auto}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(270px,1fr));gap:18px;margin-top:18px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;overflow:hidden;display:flex;flex-direction:column}
+.thumb{aspect-ratio:16/9;background:#0b121a;position:relative;display:block;overflow:hidden}
+.thumb img{width:100%;height:100%;object-fit:cover;display:block;transition:transform .3s}
+a.thumb:hover img{transform:scale(1.04)}
+.play{position:absolute;inset:auto auto 10px 10px;background:rgba(0,0,0,.7);color:#fff;font-size:.75rem;padding:3px 8px;border-radius:6px}
+.ph{width:100%;height:100%;display:flex;flex-direction:column;justify-content:center;align-items:flex-start;padding:18px;background:linear-gradient(135deg,#1f3346,#152230 60%,#2a2216)}
+.ph .mic{font-size:1.6rem;opacity:.85}
+.ph .ph-show{color:var(--accent);font-weight:700;font-size:.78rem;text-transform:uppercase;letter-spacing:.08em;margin-top:6px}
+.ph .ph-date{color:var(--muted);font-size:.85rem}
+.body{padding:14px 16px 16px;display:flex;flex-direction:column;gap:8px;flex:1}
+.meta{color:var(--muted);font-size:.8rem;display:flex;gap:8px;flex-wrap:wrap}
+.card h4{margin:0;font-size:1rem;line-height:1.35}
+.pills{display:flex;gap:6px;flex-wrap:wrap;margin-top:auto}
+.pill{font-size:.7rem;padding:2px 8px;border-radius:999px;border:1px solid var(--line);color:var(--muted)}
+.pill.yt{border-color:#c4302b;color:#ff8a85}.pill.fb{border-color:#3b5998;color:#9db4ec}.pill.x{border-color:#777;color:#ddd}
+.status{font-size:.82rem;font-weight:600}
+.status.watch a{color:var(--accent);text-decoration:none}
+.note{font-size:.78rem;color:var(--muted)}
+.empty{color:var(--muted);padding:40px;text-align:center}
+footer{border-top:1px solid var(--line);color:var(--muted);font-size:.85rem;padding:28px 0 48px}
+</style>
+</head>
+<body>
+<header class="hero"><div class="wrap">
+  <div class="eyebrow">Podcast &amp; Livestream Archive</div>
+  <h1>Rae Arora</h1>
+  <p class="lede">From 2021 to 2026, Rae Arora hosted live conversations about Long Island politics, local government, business and current events. Guests included candidates, elected officials, attorneys and entrepreneurs. The shows streamed live to Facebook and, in later years, YouTube.</p>
+  <div class="stats" id="stats"></div>
+  <a class="btn" href="https://www.youtube.com/channel/UCgY69mG5PzmzdR8E_fGyuOA" target="_blank" rel="noopener">Visit the YouTube channel →</a>
+</div></header>
+<main class="wrap">
+  <section>
+    <h2>Show eras</h2>
+    <div class="eras" id="eras"></div>
+  </section>
+  <section>
+    <h2>Episodes</h2>
+    <div class="controls">
+      <input id="q" type="search" placeholder="Search titles, guests, topics…" aria-label="Search">
+      <select id="year" aria-label="Year"><option value="">All years</option></select>
+      <select id="show" aria-label="Show"><option value="">All shows</option></select>
+      <select id="platform" aria-label="Platform"><option value="">All platforms</option><option>YouTube</option><option>Facebook</option><option>X</option></select>
+      <select id="status" aria-label="Status"><option value="">Any status</option></select>
+      <span class="count" id="count"></span>
+    </div>
+    <div class="grid" id="grid"></div>
+  </section>
+</main>
+<footer><div class="wrap">
+  Episodes marked “Watch on YouTube” link to public videos. Facebook livestreams from these years are no longer publicly available, and some Zoom-era dates come from scheduling records. Dates marked “approx.” are estimates.<br>
+  <a href="https://www.youtube.com/channel/UCgY69mG5PzmzdR8E_fGyuOA" target="_blank" rel="noopener">YouTube channel</a> · Last updated <span id="upd"></span>
+</div></footer>
+<script>
+const ERAS=[
+ {name:'Politics2021.com Podcast',yrs:'Summer–Fall 2021',desc:'Live call-in politics podcast covering the 2021 Long Island local elections.'},
+ {name:'To The Point with Mike and Rae',yrs:'Late 2021',desc:'Co-hosted Facebook show with Michael Anthony.'},
+ {name:'The Long Island Show',yrs:'Early 2022',desc:'Weekly Long Island show with Michael Anthony on Facebook.'},
+ {name:'A Conversation with…',yrs:'2022–2026',desc:'Rae’s ongoing interview series with candidates, officials and local voices, streamed to Facebook and YouTube.'}
+];
+const $=s=>document.querySelector(s);
+const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const fmtDate=(d,a)=>{const t=new Date(d+'T12:00:00');return (a?'approx. ':'')+t.toLocaleDateString('en-US',{year:'numeric',month:'short',day:'numeric'})};
+let EPS=[];
+fetch('episodes.json').then(r=>r.json()).then(data=>{
+  EPS=data.episodes.slice().sort((a,b)=>b.date.localeCompare(a.date));
+  $('#upd').textContent=data.updated;
+  const years=[...new Set(EPS.map(e=>e.date.slice(0,4)))].sort().reverse();
+  years.forEach(y=>$('#year').insertAdjacentHTML('beforeend',`<option>${y}</option>`));
+  ERAS.forEach(e=>$('#show').insertAdjacentHTML('beforeend',`<option>${esc(e.name)}</option>`));
+  [...new Set(EPS.map(e=>e.status))].forEach(s=>$('#status').insertAdjacentHTML('beforeend',`<option>${esc(s)}</option>`));
+  const yt=EPS.filter(e=>e.youtube_id).length;
+  $('#stats').innerHTML=[[EPS.length,'episodes &amp; streams'],[yt,'watchable on YouTube'],[years.length,'years'],[ERAS.length,'show eras']].map(([n,l])=>`<div class="stat"><b>${n}</b><span>${l}</span></div>`).join('');
+  $('#eras').innerHTML=ERAS.map(e=>{const n=EPS.filter(x=>x.show===e.name).length;return `<div class="era" data-show="${esc(e.name)}"><div class="yrs">${esc(e.yrs)} · ${n} episode${n==1?'':'s'}</div><h3>${esc(e.name)}</h3><p>${esc(e.desc)}</p></div>`}).join('');
+  document.querySelectorAll('.era').forEach(el=>el.onclick=()=>{const v=el.dataset.show;$('#show').value=$('#show').value===v?'':v;render();document.querySelector('.controls').scrollIntoView({behavior:'smooth'})});
+  ['#q','#year','#show','#platform','#status'].forEach(s=>$(s).addEventListener('input',render));
+  render();
+});
+function card(e){
+  const pills=e.platforms.map(p=>`<span class="pill ${p=='YouTube'?'yt':p=='Facebook'?'fb':'x'}">${esc(p)}</span>`).join('')+e.tags.map(t=>`<span class="pill">${esc(t)}</span>`).join('')+(e.category==='Other'?'<span class="pill">other</span>':'');
+  const thumb=e.youtube_id
+   ?`<a class="thumb" href="${esc(e.youtube_url)}" target="_blank" rel="noopener"><img loading="lazy" src="https://i.ytimg.com/vi/${esc(e.youtube_id)}/hqdefault.jpg" alt=""><span class="play">▶ ${esc(e.duration||'Watch')}</span></a>`
+   :`<div class="thumb"><div class="ph"><div class="mic">🎙️</div><div class="ph-show">${esc(e.show)}</div><div class="ph-date">${esc(fmtDate(e.date,e.date_approx))}</div></div></div>`;
+  const status=e.youtube_id?`<div class="status watch"><a href="${esc(e.youtube_url)}" target="_blank" rel="noopener">▶ Watch on YouTube</a></div>`:`<div class="status">${esc(e.status)}</div>`;
+  return `<article class="card">${thumb}<div class="body"><div class="meta"><span>${esc(fmtDate(e.date,e.date_approx))}</span>${e.duration?`<span>· ${esc(e.duration)}</span>`:''}<span>· ${esc(e.show)}</span></div><h4>${esc(e.title)}</h4>${status}${e.note?`<div class="note">${esc(e.note)}</div>`:''}<div class="pills">${pills}</div></div></article>`;
+}
+function render(){
+  const q=$('#q').value.trim().toLowerCase(),y=$('#year').value,s=$('#show').value,p=$('#platform').value,st=$('#status').value;
+  document.querySelectorAll('.era').forEach(el=>el.classList.toggle('active',el.dataset.show===s));
+  const list=EPS.filter(e=>(!q||(e.title+' '+e.show).toLowerCase().includes(q))&&(!y||e.date.startsWith(y))&&(!s||e.show===s)&&(!p||e.platforms.includes(p))&&(!st||e.status===st));
+  $('#count').textContent=`${list.length} of ${EPS.length}`;
+  $('#grid').innerHTML=list.length?list.map(card).join(''):'<div class="empty">No episodes match those filters.</div>';
+}
+</script>
+</body>
+</html>
